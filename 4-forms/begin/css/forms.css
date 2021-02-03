@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Marck+Script&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/galaxy.jpg);
+}
+
+.wrapper {
+    background: #efb106;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+section {
+    flex-basis: 57%;
+    margin-right: 10%;
+}
+
+aside {
+    flex-basis: 33%;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+fieldset {
+    color: ;
+    border: 2px solid #ffff;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    height: 10rem;
+}
+
+select {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+button[type=submit] {
+    font-size: 1rem;
+    margin: 2rem 0;
+    background: #bb342f;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: rgb(46, 46, 207);
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+textarea {
+    display: block;
+    margin-bottom: 2rem;
+    width: 20rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Marck Script', cursive;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+[for="abtype"] {
+    margin-bottom: 1rem;
+}
